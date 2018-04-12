@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Calendar</title>
+</head>
+<body>
+    <div class="calendars-wrap">
+        <div class="calendar-inputs">
+            <input type="month" id="selectDateInput" class="calendar-select">
+        </div>
+
+        <div class="calendar previous-calendar" id="prevCalendar"></div>
+        <div class="calendar current-calendar calendar-active" id="currCalendar"></div>
+        <div class="calendar next-calendar" id="nextCalendar"></div>
+
+        <div class="mount" id="mount"></div>
+
+        <div class="calendar-controls" id="controls">
+            <div class="control left-arrow" id="leftArrow">
+                &larr;
+            </div>
+            <div class="control right-arrow" id="rightArrow">
+                &rarr;
+            </div>
+        </div>
+
+        <input type="hidden" id="selectedDate">
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
